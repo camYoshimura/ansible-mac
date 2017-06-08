@@ -12,45 +12,23 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - alfred
-      - appcleaner
+      - amazon-music
       - atom
-      - caffeine
-      - chromium
+      - chatwork
       - clipy
-      - coteditor
       - dash
-      - datagrip
-      - dropbox
+      - docker
       - evernote
-      - firefox
-      - flash
-      - flash-player
       - flux
-      - franz
-      - github-desktop
       - google-chrome
-      - google-chrome-canary
+      - google-drive
       - google-japanese-ime
-      - google-photos-backup
       - iterm2
-      - java6
-      - karabiner
       - keepassx
-      - magican
       - mysqlworkbench
-      - p4merge
-      - phpstorm
-      - postman
-      - rdm
+      - pritunl
       - sequel-pro
       - slack
-      - sourcetree
-      - sublime-text
-      - the-unarchiver
-      - unetbootin
       - vagrant
       - virtualbox
-      - visual-studio-code
-      - vivaldi
-      - vlc
+
