@@ -5,10 +5,7 @@
     # - homebrew/binary
     homebrew_repositories:
       - argon/mas
-      - homebrew/completions
       - homebrew/core
-      - homebrew/dupes
-      - homebrew/php
     # Managed Homebrew packages.
     #
     # e.g.
@@ -19,13 +16,17 @@
     # state choices: [head, latest, present, absent, linked, unlinked] (default: latest)
     # install_options: string or sequence (default: none)
     homebrew_packages:
+      - aacgain
+      - ansible-lint
       - autoconf
       - automake
+      - awscli
       - bash-completion
       - bison
       - bzip2
       - curl
       - direnv
+      - drafter
       - fasd
       - fish
       - freetype
@@ -34,17 +35,15 @@
       - ghq
       - git
       - gmp
+      - graphviz
       - httpie
       - hub
-      - icu4c
       - { name: icu4c, state: linked }
       - jpeg
       - jq
       - libevent
       - libpng
       - libtool
-      - libxml2
-      - { name: libxml2, state: linked, install_options: force }
       - libyaml
       - mackup
       - mas
@@ -52,19 +51,20 @@
       - mhash
       - nodebrew
       - oniguruma
-      - openssl
       - { name: openssl, state: linked, install_options: force }
       - pcre
       - pcre2
       - peco
-      - php70
-      - phpbrew
       - pkg-config
+      - qcachegrind
+      - qt
       - rbenv
       - re2c
       - readline
       - ruby-build
+      - source-highlight
       - the_silver_searcher
+      - tfenv
       - tig
       - tree
       - unixodbc
@@ -74,5 +74,6 @@
       - xz
       - zlib
       - { name: zsh, install_options: without-etcdir }
+      - zsh-autosuggestions
       - zsh-completions
       - zsh-syntax-highlighting

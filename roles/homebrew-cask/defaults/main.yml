@@ -1,7 +1,6 @@
 ---
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
-      - caskroom/versions
 
     # Managed Homebrew Cask packages.
     #
@@ -12,36 +11,43 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - amazon-music
+      - alfred
       - appcleaner
       - atom
-      - betterzipql
-      - chatwork
+      - chromium
       - clipy
-      - dash
+      - coteditor
+      # - dash
       - datagrip
       - docker
-      - duet
+      - dropbox
       - evernote
+      - firefox
+      - flash
+      - flash-player
       - flux
+      - franz
+      - github-desktop
       - google-chrome
-      - google-drive
+      - google-chrome-canary
       - google-japanese-ime
       - iterm2
-      - karabiner
+      - java6
+      - karabiner-elements
       - keepassx
-      - magican
+      - mysqlworkbench
+      - p4merge
+      - phpstorm
       - postman
-      - pritunl
-      - qlcolorcode
-      - qlimagesize
-      - qlmarkdown
-      - qlstephen
-      - quicklook-csv
-      - quicklook-json
+      - rdm
       - sequel-pro
-      - skitch
       - slack
+      - sourcetree
       - sublime-text
+      - the-unarchiver
       - vagrant
       - virtualbox
+      - visual-studio-code
+      - vivaldi
+      - vlc
+      - homebrew/cask-fonts/font-ricty-diminished

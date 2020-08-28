@@ -1,8 +1,0 @@
----
-    mas_items:
-      - { id: 405843582,  name: Alfred }
-      - { id: 595191960,  name: CopyClip }
-      - { id: 1142151959, name: JustFocus }
-      - { id: 896624060,  name: Kobito }
-      - { id: 715768417,  name: Microsoft Remote Desktop }
-      - { id: 803453959,  name: Slack }
